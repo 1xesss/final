@@ -1,0 +1,47 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #29cf00;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #29cf00);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right,#29cf00);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+   /* Estilos base para el botón */
+.senabutton {
+    background: #009e49; /* Verde SENA */
+    color: #ffffff; /* Blanco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease; /* Transición suave de color de fondo */
+}
+
+/* Efecto al pasar el mouse */
+.senabutton:hover {
+    background: #ffffff; /* Blanco al pasar el mouse */
+    color: #009e49; /* Verde SENA al pasar el mouse */
+    border: 1px solid #009e49; /* Borde verde SENA al pasar el mouse */
+    transition: background 0.3s ease; /* Transición suave de color de fondo */
+}
+
+/* Animación al hacer clic */
+.senabutton:active {
+    transform: scale(0.95); /* Reducción de escala al hacer clic */
+}
